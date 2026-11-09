@@ -27,6 +27,15 @@ go.work.sum
 
 # env file
 .env
+*.env
+bin/
+.azure/
+local.settings.json
+vendor/
+*.log
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
 
 # Editor/IDE
 # .idea/
