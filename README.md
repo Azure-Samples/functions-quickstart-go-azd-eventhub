@@ -17,8 +17,8 @@ urlFragment: functions-quickstart-go-azd-eventhub
 # Azure Functions Go Event Hubs Trigger
 
 This sample follows the [Go timer quickstart](https://github.com/Azure-Samples/functions-quickstart-go-azd-timer)
-and deploys to Linux Flex Consumption with `azd`. Go worker packages are preview
-packages. The `processTelemetry` function consumes JSON device readings from the
+and deploys to Linux Flex Consumption with `azd` using Go worker v1.0.0 (GA).
+The `processTelemetry` function consumes JSON device readings from the
 `telemetry` event hub using the dedicated `functions` consumer group.
 
 ```json
